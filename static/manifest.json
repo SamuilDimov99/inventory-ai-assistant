@@ -1,0 +1,21 @@
+{
+  "name": "Складов Асистент",
+  "short_name": "Склад",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff4b4b",
+  "description": "Складов AI Асистент за управление на инвентар.",
+  "icons": [
+    {
+      "src": "/static/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -9,8 +9,18 @@ from openpyxl.styles import Font, Border, Side, Alignment
 import re
 from copy import copy
 
-# --- Configuration and API Key ---
-st.set_page_config(page_title="Складов AI Асистент", layout="centered")
+# # --- Configuration and API Key ---
+# st.set_page_config(page_title="Складов AI Асистент", layout="centered")
+
+# At the top of app.py
+st.set_page_config(
+    page_title="Складов AI Асистент",
+    layout="centered",
+    page_icon="static/icon-192x192.png" # Sets the browser tab icon
+)
+
+# Link to the PWA manifest
+st.markdown('<link rel="manifest" href="/static/manifest.json">', unsafe_allow_html=True)
 
 def get_api_key():
     try:
