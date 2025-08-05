@@ -1,5 +1,6 @@
 streamlit
 pandas
+openpyxl
 google-generativeai
 gspread
 gspread-dataframe
